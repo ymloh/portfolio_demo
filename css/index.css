@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#splash {
+  background-image: url("../images/splash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 50% 50%; */
+  height: 100vh;
+}
+
+#name-container {
+  position: absolute;
+  top: 40%;
+  /* left: 50%; */
+  width: 100%;
+  text-align: center;
+}
+
+#name {
+  font-size: 5rem;
+  color: white;
+}
+
+#button-projects {
+  margin-top: 2rem;
+}
+
+a {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 15px white;
+}
